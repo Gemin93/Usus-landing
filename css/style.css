@@ -23,3 +23,29 @@ button {
   border: 0;
   cursor: pointer;
 }
+
+.container {
+  max-width: 1840px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__btn span {
+  width: 70px;
+  height: 3px;
+  display: block;
+  background-color: #ff5017;
+}
